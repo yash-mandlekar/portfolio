@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 const Navbar = () => {
   const { pathname } = useLocation();
   const { theme } = useSelector((state) => state.theme);
-  const [width, setwidth] = useState(window.innerHeight);
+  const [width, setwidth] = useState(1200);
   const handleMenu = (e) => {
     console.log(e.target.id);
   };
