@@ -238,7 +238,7 @@ input:checked + .slider:before {
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
-    padding-top: 5vh;
+    padding-top: 7vh;
   }
   .homeLeft {
     display: flex;
