@@ -112,7 +112,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-      <div className="sidenav">lol</div>
+      {/* <div className="sidenav">lol</div> */}
     </>
   );
 };
