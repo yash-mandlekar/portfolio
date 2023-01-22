@@ -1,0 +1,362 @@
+.home {
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  height: 100vh;
+  background-color: #f0f0f0;
+  float: right;
+  align-items: center;
+  justify-content: end;
+}
+
+.homeLeft {
+  min-width: 300px;
+  min-height: 300px;
+  position: relative;
+  border-radius: 100%;
+  margin-right: 7vmax;
+}
+.homeRight {
+  position: relative;
+  height: 50%;
+  width: 50%;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 9px hsl(0deg 0% 100% / 30%);
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  overflow: hidden;
+  animation: morph 8s ease-in-out 1s infinite;
+}
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+.homeRightName {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 100%;
+}
+.homeRightName h1 {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  font-size: 3.3vmax;
+  font-weight: 900;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.homeRightDetails {
+  height: 5%;
+  width: 97%;
+}
+.container {
+  position: absolute;
+  margin-left: -4%;
+  color: #000000;
+  font-size: 2.26vmax;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.animation {
+  height: 3vmax;
+  overflow: hidden;
+  margin-left: 1.8vmax;
+}
+.animation > div > div {
+  /* padding: 0.25rem 0.75rem; */
+  height: 3vmax;
+  display: inline-block;
+}
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+.first div {
+  color: #20a7d8;
+}
+.second div {
+  color: #cd921e;
+}
+.third div {
+  color: #c10528;
+}
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -2.8vmax;
+  }
+  30% {
+    margin-top: -2.8vmax;
+  }
+  40% {
+    margin-top: -5.6vmax;
+  }
+  60% {
+    margin-top: -5.6vmax;
+  }
+  70% {
+    margin-top: -2.8vmax;
+  }
+  80% {
+    margin-top: -2.8vmax;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+.yashdetails {
+  width: 88%;
+}
+.yashdetails p {
+  font-size: 1.4vmax;
+  font-weight: 10;
+  color: rgb(176, 163, 163);
+  font-family: sans-serif;
+  margin-top: 5%;
+}
+.yashicons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  margin-top: 5%;
+}
+.yashicons i {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.yashicons i:hover {
+  transform: translate(0px, -5px);
+  color: blue;
+}
+.yashicons i:nth-child(2):hover {
+  color: rgb(111, 186, 251);
+}
+.yashicons i:nth-child(3):hover {
+  color: rgb(215, 99, 119);
+}
+.darkmode {
+  width: 100%;
+  height: 1.8%;
+  position: relative;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: absolute !important;
+  align-items: center;
+  display: flex;
+  right: -4%;
+  bottom: 0%;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 5.5em;
+  height: 2.2em;
+}
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* The slider */
+.slider {
+  --background: #242424;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: 0.5s;
+  border-radius: 30px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 8px -4px 0px 0px #fff000;
+  background: var(--background);
+  transition: 0.5s;
+}
+input:checked + .slider {
+  background-color: #9b9b9b;
+}
+input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 15px -4px 0px 15px #fff000;
+}
+
+@media (max-width: 1200px) {
+  .home {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    padding-top: 5vh;
+  }
+  .homeLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeLeft img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+  }
+  .homeRight {
+    height: 50vmax;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeRightName {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeRightName h1 {
+    position: unset;
+    display: block;
+    text-align: center;
+    font-size: 4vmax;
+  }
+  .homeRightDetails {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .yashdetails {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .yashdetails p {
+    font-size: 2.5vmax;
+    margin-top: 2vmax;
+  }
+  .yashicons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vmax;
+  }
+  .yashicons i {
+    font-size: 4.5vmax;
+  }
+  .darkmode {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vmax;
+  }
+  .switch {
+    right: 0;
+    bottom: 0;
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 5.5em;
+    height: 2.2em;
+  }
+  .container {
+    font-size: 3.5vmax;
+  }
+  .animation {
+    height: 5vmax;
+  }
+  .animation div {
+    height: 5vmax;
+  }
+  @keyframes text-animation {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -5vmax;
+    }
+    30% {
+      margin-top: -5vmax;
+    }
+    40% {
+      margin-top: -9vmax;
+    }
+    60% {
+      margin-top: -9vmax;
+    }
+    70% {
+      margin-top: -5vmax;
+    }
+    80% {
+      margin-top: -5vmax;
+    }
+    90% {
+      margin-top: 0;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+}
