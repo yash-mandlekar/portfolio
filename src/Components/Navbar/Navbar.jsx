@@ -3,6 +3,7 @@ import "./nav.css";
 import "animate.css";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
+import Darkmode from "../../miniComp/Darkmode";
 
 const Navbar = () => {
   const { pathname } = useLocation();
@@ -21,7 +22,6 @@ const Navbar = () => {
   const updateDimensions = () => {
     setwidth(window.innerWidth);
   };
-  console.log(sidenav);
   return (
     <>
       <div className={`Navbar ${theme === "dark" ? "dark" : "light"}`}>
@@ -32,23 +32,17 @@ const Navbar = () => {
           <ul>
             <li
               to="/"
-              className={`${
-                theme === "dark"
-                  ? `txt-white ${pathname === "/" ? "active" : "darkactive"}`
-                  : `light`
-              }`}
+              className={`${theme === "dark" ? `txt-white` : `txt-black`}
+              ${pathname === "/" ? "active" : "darkactive"}
+              `}
             >
               <Link to="/">
                 <i className="ri-home-3-line"></i>Home
               </Link>
             </li>
             <li
-              className={`${
-                theme === "dark"
-                  ? `txt-white ${
-                      pathname === "/about" ? "active" : "darkactive"
-                    }`
-                  : `light`
+              className={`${theme === "dark" ? `txt-white` : `txt-black`} ${
+                pathname === "/about" ? "active" : "darkactive"
               }`}
             >
               <Link to="/about">
@@ -56,38 +50,25 @@ const Navbar = () => {
               </Link>
             </li>
             <li
-              className={`${
-                theme === "dark"
-                  ? `txt-white ${
-                      pathname === "/service" ? "active" : "darkactive"
-                    }`
-                  : `light`
-              }`}
+              className={`${theme === "dark" ? `txt-white` : `txt-black`}
+              ${pathname === "/service" ? "active" : "darkactive"}
+              `}
             >
               <Link to="/service">
                 <i className="ri-settings-2-line"></i>Service
               </Link>
             </li>
             <li
-              className={`${
-                theme === "dark"
-                  ? ` txt-white ${
-                      pathname === "/contact" ? "active" : "darkactive"
-                    }`
-                  : `light`
-              }`}
+              className={`${theme === "dark" ? ` txt-white` : `txt-black`}
+              ${pathname === "/contact" ? "active" : "darkactive"}`}
             >
               <Link to="/contact">
                 <i className="ri-phone-fill"></i>Contact
               </Link>
             </li>
             <li
-              className={`${
-                theme === "dark"
-                  ? ` txt-white ${
-                      pathname === "/projects" ? "active" : "darkactive"
-                    }`
-                  : `light`
+              className={`${theme === "dark" ? ` txt-white` : `txt-black`} ${
+                pathname === "/projects" ? "active" : "darkactive"
               }`}
             >
               <Link to="/projects">
@@ -123,21 +104,17 @@ const Navbar = () => {
         <ul>
           <li
             to="/"
-            className={`${
-              theme === "dark"
-                ? `txt-white ${pathname === "/" ? "active" : "darkactive"}`
-                : `light`
-            }`}
+            className={`${theme === "dark" ? `txt-white` : `txt-black`}
+              ${pathname === "/" ? "active" : "darkactive"}
+              `}
           >
             <Link to="/">
               <i className="ri-home-3-line"></i>Home
             </Link>
           </li>
           <li
-            className={`${
-              theme === "dark"
-                ? `txt-white ${pathname === "/about" ? "active" : "darkactive"}`
-                : `light`
+            className={`${theme === "dark" ? `txt-white` : `txt-black`} ${
+              pathname === "/about" ? "active" : "darkactive"
             }`}
           >
             <Link to="/about">
@@ -145,38 +122,25 @@ const Navbar = () => {
             </Link>
           </li>
           <li
-            className={`${
-              theme === "dark"
-                ? `txt-white ${
-                    pathname === "/service" ? "active" : "darkactive"
-                  }`
-                : `light`
-            }`}
+            className={`${theme === "dark" ? `txt-white` : `txt-black`}
+              ${pathname === "/service" ? "active" : "darkactive"}
+              `}
           >
             <Link to="/service">
               <i className="ri-settings-2-line"></i>Service
             </Link>
           </li>
           <li
-            className={`${
-              theme === "dark"
-                ? ` txt-white ${
-                    pathname === "/contact" ? "active" : "darkactive"
-                  }`
-                : `light`
-            }`}
+            className={`${theme === "dark" ? ` txt-white` : `txt-black`}
+              ${pathname === "/contact" ? "active" : "darkactive"}`}
           >
             <Link to="/contact">
               <i className="ri-phone-fill"></i>Contact
             </Link>
           </li>
           <li
-            className={`${
-              theme === "dark"
-                ? ` txt-white ${
-                    pathname === "/projects" ? "active" : "darkactive"
-                  }`
-                : `light`
+            className={`${theme === "dark" ? ` txt-white` : `txt-black`} ${
+              pathname === "/projects" ? "active" : "darkactive"
             }`}
           >
             <Link to="/projects">

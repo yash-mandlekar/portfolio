@@ -2,14 +2,10 @@ import React, { useState } from "react";
 import "./home.css";
 import Photu from "../../img/photu.jpg";
 import Navbar from "../Navbar/Navbar";
-import { useDispatch, useSelector } from "react-redux";
-import { changeTheme } from "../../Store/Actions/Theme";
+import { useSelector } from "react-redux";
+import Darkmode from "../../miniComp/Darkmode";
 const Home = () => {
-  const dispatch = useDispatch();
   const { theme } = useSelector((state) => state.theme);
-  const handleTheme = () => {
-    dispatch(changeTheme(theme));
-  };
   const handleIcon = (e) => {
     window.open(e.target.id, "_blank");
   };
@@ -75,14 +71,9 @@ const Home = () => {
               className="ri-linkedin-box-fill"
             ></i>
           </div>
-          <div className="darkmode">
-            <label className="switch">
-              <input type="checkbox" onChange={handleTheme} name="theme" />
-              <span className="slider"></span>
-            </label>
-          </div>
         </div>
       </div>
+      <Darkmode />
     </>
   );
 };
