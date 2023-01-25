@@ -6,6 +6,11 @@
   width: 78%;
   font-family: Montserrat;
   padding: 0% 10%;
+  box-shadow: 5px 5px 10px #dedede, -5px -5px 10px #e2e2e2;
+}
+.about2:hover {
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  box-shadow: 5px 5px 10px #848484, -5px -5px 10px #ffffff;
 }
 .abouttop h1 {
   color: white;
@@ -28,6 +33,7 @@
   /* black and white filter */
   filter: grayscale(100%);
 }
+
 .about3 {
   width: 100%;
   padding: 5% 0%;
