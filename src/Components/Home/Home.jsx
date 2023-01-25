@@ -45,8 +45,12 @@ const Home = () => {
           </div>
           <div className="yashdetails">
             <p>
-              Creative Photographer based in New York and happy to travel all
-              over Europe to capture photos.
+              I'm a Web Developer aspiring to gain a full-time position in a
+              reputed company. Gained extensive experience in web development,
+              and deployment . A highly motivated and hardworking individual
+              skilled in Node JS, React JS. Seeking a position to utilize the
+              gained skills and experience to positively contribute to the
+              company.
             </p>
           </div>
           <div className="yashicons">
