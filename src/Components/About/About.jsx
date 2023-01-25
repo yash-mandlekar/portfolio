@@ -16,7 +16,11 @@ const About = () => {
             About me
           </h1>
         </div>
-        <div className="about2">
+        <div
+          className={`about2 ${
+            theme === "dark" ? "about2-dark" : "about2-light"
+          }`}
+        >
           <img src={myImg} alt="" />
         </div>
         <div className="about3">
