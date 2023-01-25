@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className={`about ${theme === "dark" ? "grey" : ""}`}>contact</div>
+      <div className={`contact ${theme === "dark" ? "grey" : ""}`}>contact</div>
     </>
   );
 };

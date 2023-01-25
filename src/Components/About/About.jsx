@@ -12,9 +12,7 @@ const About = () => {
       <Navbar />
       <div className={`about ${theme === "dark" ? "grey" : ""}`}>
         <div className="abouttop">
-          <h1 className={`${theme === "dark" ? "grey" : "txt-black"}`}>
-            About me
-          </h1>
+          <h1>About me</h1>
         </div>
         <div
           className={`about2 ${
@@ -24,9 +22,7 @@ const About = () => {
           <img src={myImg} alt="" />
         </div>
         <div className="about3">
-          <h1 className={`${theme === "dark" ? "grey" : "txt-black"}`}>
-            Hi, I'm Yash Mandlekar
-          </h1>
+          <h1>Hi, I'm Yash Mandlekar</h1>
           <h2>Full Stack Web Developer</h2>
           <div className="divider"></div>
           <p>

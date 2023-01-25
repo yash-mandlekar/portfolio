@@ -1,0 +1,45 @@
+.projects {
+  overflow-x: hidden;
+  /* display: flex; */
+  margin-left: 22%;
+  min-height: 200vh;
+  width: 78%;
+  font-family: Montserrat;
+  padding: 0% 10%;
+}
+.projects h1 {
+  font-size: 2.8vmax;
+  font-weight: 600;
+  padding: 3% 0%;
+}
+.project {
+  width: 100%;
+  padding: 5% 0%;
+}
+.img-cnt {
+  width: 100%;
+  overflow: hidden;
+  margin: 2% 0%;
+}
+.project img {
+  width: 100%;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.project img:hover {
+  transform: scale(1.1);
+}
+.project h2 {
+  font-size: 2vmax;
+  font-weight: 600;
+}
+.project p {
+  color: #767676;
+}
+
+@media screen and (max-width: 1200px) {
+  .projects {
+    margin-left: 0;
+    width: 100%;
+    padding-top: 10vh;
+  }
+}
