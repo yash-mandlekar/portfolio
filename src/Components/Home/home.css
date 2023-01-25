@@ -243,23 +243,6 @@
   .yashicons i {
     font-size: 4.5vmax;
   }
-  .darkmode {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1vmax;
-  }
-  .switch {
-    right: 0;
-    bottom: 0;
-    font-size: 17px;
-    position: relative;
-    display: inline-block;
-    width: 5.5em;
-    height: 2.2em;
-  }
   .container {
     font-size: 3.5vmax;
   }
