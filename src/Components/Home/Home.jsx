@@ -45,12 +45,12 @@ const Home = () => {
           </div>
           <div className="yashdetails">
             <p>
-              I'm a Web Developer aspiring to gain a full-time position in a
-              reputed company. Gained extensive experience in web development,
-              and deployment . A highly motivated and hardworking individual
-              skilled in Node JS, React JS. Seeking a position to utilize the
-              gained skills and experience to positively contribute to the
-              company.
+              I am an aspiring web developer seeking a full-time position in a
+              reputable company. I have gained extensive experience in web
+              development and deployment. I am a highly motivated and
+              hardworking individual, skilled in Node JS and React JS. I am
+              looking for a position where I can use my skills and experience to
+              make a positive contribution to the company.
             </p>
           </div>
           <div className="yashicons">

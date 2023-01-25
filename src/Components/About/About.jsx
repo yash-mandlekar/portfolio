@@ -30,17 +30,17 @@ const About = () => {
           <h2>Full Stack Web Developer</h2>
           <div className="divider"></div>
           <p>
-            I am a full stack web developer. I am a student of B.Com in Career
-            College. I am a self taught web developer. I have learned web
-            development from various online sources and Sheryians Coding School.
+            I am a full-stack web developer and a student of B.Com in Career
+            College. I am self-taught, having learned web development through
+            various online sources and Sheryians Coding School.
           </p>
           <p>
-            My journey of web development is started from 2018.First i have
-            learned Java and Sql then i got to know about web development and i
-            started learning web development from Sheryians in 2021. I have
-            Commerce background so i have learned web development from scratch.
-            I really enjoy learning languages and frameworks like React.js,
-            Node.js, Express.js, MongoDB, etc.
+            My journey in web development began in 2018, starting with Java and
+            SQL. In 2021, I began learning web development specifically at
+            Sheryians. Having a background in commerce, I had to learn web
+            development from the ground up. I find it very enjoyable to learn
+            new languages and frameworks, such as React.js, Node.js, Express.js,
+            and MongoDB
           </p>
           <div className="divider"></div>
         </div>
