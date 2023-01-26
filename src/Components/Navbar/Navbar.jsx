@@ -71,7 +71,7 @@ const Navbar = () => {
                 pathname === "/projects" ? "active" : "darkactive"
               }`}
             >
-              <Link to="/projects">
+              <Link to="/mydesigns">
                 <i className="ri-image-edit-fill"></i>My Designs
               </Link>
             </li>
@@ -143,8 +143,8 @@ const Navbar = () => {
               pathname === "/projects" ? "active" : "darkactive"
             }`}
           >
-            <Link to="/projects">
-              <i className="ri-image-edit-fill"></i>Projects
+            <Link to="/mydesigns">
+              <i className="ri-image-edit-fill"></i>My Designs
             </Link>
           </li>
         </ul>
