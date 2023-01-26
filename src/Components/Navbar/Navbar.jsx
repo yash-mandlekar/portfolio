@@ -72,7 +72,7 @@ const Navbar = () => {
               }`}
             >
               <Link to="/projects">
-                <i className="ri-image-edit-fill"></i>Projects
+                <i className="ri-image-edit-fill"></i>My Designs
               </Link>
             </li>
           </ul>
