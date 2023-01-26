@@ -6,7 +6,7 @@ const Home = React.lazy(() => import("./Components/Home/Home"));
 const About = React.lazy(() => import("./Components/About/About"));
 const Service = React.lazy(() => import("./Components/Service/Service"));
 const Contact = React.lazy(() => import("./Components/Contact/Contact"));
-const Projects = React.lazy(() => import("./Components/Projects/Projects"));
+const Mydesigns = React.lazy(() => import("./Components/Mydesigns/Mydesigns"));
 const App = () => {
   const { theme } = useSelector((state) => state.theme);
   return (
@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/mydesigns" element={<Projects />} />
+          <Route path="/mydesigns" element={<Mydesigns />} />
         </Routes>
       </Suspense>
     </>
