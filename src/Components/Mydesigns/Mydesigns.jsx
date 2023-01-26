@@ -2,18 +2,18 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Darkmode from "../../miniComp/Darkmode";
 import Navbar from "../Navbar/Navbar";
-import "./projects.css";
+import "./mydesigns.css";
 import Aerial from "./Aerial.png";
 import LV from "./LV.png";
 import Ocean from "./Ocean.png";
 import Snowbear from "./Snowbear.png";
-const Projects = () => {
+const Mydesigns = () => {
   const { theme } = useSelector((state) => state.theme);
   return (
     <>
       <Navbar />
       <div className={`projects ${theme === "dark" ? "grey" : ""}`}>
-        <h1>Projects</h1>
+        <h1>My Designs</h1>
         <div className="project">
           <h2>1. Aerial Photography</h2>
           <div className="img-cnt">
@@ -67,4 +67,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Mydesigns;
