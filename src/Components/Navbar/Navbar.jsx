@@ -51,11 +51,11 @@ const Navbar = () => {
             </li>
             <li
               className={`${theme === "dark" ? `txt-white` : `txt-black`}
-              ${pathname === "/service" ? "active" : "darkactive"}
+              ${pathname === "/projects" ? "active" : "darkactive"}
               `}
             >
-              <Link to="/service">
-                <i className="ri-settings-2-line"></i>Service
+              <Link to="/projects">
+                <i className="ri-settings-2-line"></i>Projects
               </Link>
             </li>
             <li
@@ -68,7 +68,7 @@ const Navbar = () => {
             </li>
             <li
               className={`${theme === "dark" ? ` txt-white` : `txt-black`} ${
-                pathname === "/projects" ? "active" : "darkactive"
+                pathname === "/mydesigns" ? "active" : "darkactive"
               }`}
             >
               <Link to="/mydesigns">

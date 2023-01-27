@@ -66,8 +66,8 @@ const Home = () => {
             ></i>
             <i
               onClick={handleIcon}
-              id="https://instagram.com/_yxshh_._"
-              className="ri-instagram-fill"
+              id="https://github.com/yash-mandlekar"
+              className="ri-github-fill"
             ></i>
             <i
               onClick={handleIcon}

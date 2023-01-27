@@ -163,7 +163,7 @@
   color: rgb(111, 186, 251);
 }
 .yashicons i:nth-child(3):hover {
-  color: rgb(215, 99, 119);
+  color: #39d353;
 }
 
 @media (max-width: 1200px) {
