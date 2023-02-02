@@ -179,7 +179,7 @@ input:checked + div span.line-2 {
 .sidenav li a {
   font-size: 2.5vmax;
   font-weight: 600;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
   font-family: sans-serif;
   letter-spacing: 1px;
 }
