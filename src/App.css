@@ -87,7 +87,6 @@ body::-webkit-scrollbar-thumb {
   /* black and white filter */
   filter: grayscale(100%);
 }
-
 .about3 {
   width: 100%;
   padding: 5% 0%;
@@ -149,7 +148,6 @@ body::-webkit-scrollbar-thumb {
   font-family: "Arial";
   transition: background 0.3s;
 }
-
 .button::before {
   position: absolute;
   content: attr(data-tooltip);
@@ -163,7 +161,6 @@ body::-webkit-scrollbar-thumb {
   bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
   left: calc(50% - var(--tooltip-width) / 2);
 }
-
 .button::after {
   position: absolute;
   content: "";
@@ -174,20 +171,17 @@ body::-webkit-scrollbar-thumb {
   left: calc(50% - 10px);
   bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
 }
-
 .button::after,
 .button::before {
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s;
 }
-
 .text {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .button-wrapper,
 .text,
 .icon {

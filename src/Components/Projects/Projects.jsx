@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import Navbar from "../Navbar/Navbar";
+import "./Projects.css";
 // for all the projects, we will be using the github api
 // https://api.github.com/users/yash-mandlekar/repos?sort=updated&direction=desc
 const Projects = ({ repos }) => {
@@ -9,7 +10,15 @@ const Projects = ({ repos }) => {
   return (
     <>
       <Navbar />
-      <div className={`about ${theme === "dark" ? "grey" : ""}`}>Projects</div>
+      <div className={`about ${theme === "dark" ? "grey" : ""}`}>
+        <div className="cards">
+          {repos.map((repo) => (
+            <div className="card">
+              <div className="card2"></div>
+            </div>
+          ))}
+        </div>
+      </div>
     </>
   );
 };
