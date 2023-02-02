@@ -4,12 +4,11 @@ import Navbar from "../Navbar/Navbar";
 import "./contact.css";
 
 const Contact = () => {
-  
   const { theme } = useSelector((state) => state.theme);
   return (
     <>
       <Navbar />
-      <div className={`contact ${theme === "dark" ? "grey" : ""}`}> contact</div>
+      <div className={`about ${theme === "dark" ? "grey" : ""}`}> contact</div>
     </>
   );
 };
