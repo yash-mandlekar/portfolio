@@ -14,7 +14,16 @@ const Projects = ({ repos }) => {
         <div className="cards">
           {repos.map((repo) => (
             <div className="card">
-              <div className="card2"></div>
+              <div className="card2">
+                {/* project name */}
+                <h2>{repo.name}</h2>
+                {/* project description */}
+                <p>{repo.description}</p>
+                {/* project link */}
+                <a href={repo.html_url} target="_blank" rel="noreferrer">
+                  <button>View Project</button>
+                </a>
+              </div>
             </div>
           ))}
         </div>
