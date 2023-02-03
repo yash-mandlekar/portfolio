@@ -1,4 +1,4 @@
-.projects {
+.mydesigns {
   overflow-x: hidden;
   /* display: flex; */
   margin-left: 22%;
@@ -7,12 +7,12 @@
   font-family: Montserrat;
   padding: 0% 10%;
 }
-.projects h1 {
+.mydesigns h1 {
   font-size: 2.8vmax;
   font-weight: 600;
   padding: 3% 0%;
 }
-.project {
+.mydesign {
   width: 100%;
   padding: 5% 0%;
 }
@@ -21,23 +21,23 @@
   overflow: hidden;
   margin: 2% 0%;
 }
-.project img {
+.mydesign img {
   width: 100%;
   transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
-.project img:hover {
+.mydesign img:hover {
   transform: scale(1.1);
 }
-.project h2 {
+.mydesign h2 {
   font-size: 2vmax;
   font-weight: 600;
 }
-.project p {
+.mydesign p {
   color: #767676;
 }
 
 @media screen and (max-width: 1200px) {
-  .projects {
+  .Mydesigns {
     margin-left: 0;
     width: 100%;
     padding-top: 10vh;

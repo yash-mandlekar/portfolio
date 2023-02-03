@@ -11,7 +11,7 @@ const App = () => {
   const { theme } = useSelector((state) => state.theme);
   const [repos, setRepos] = useState([]);
   const repoNames = [
-    "Admin-Panel",
+    "WeatherForecast",
     "LokdeshVeb",
     "Spotify-clone",
     "Trending-Movies",

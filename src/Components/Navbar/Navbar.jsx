@@ -24,7 +24,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className={`Navbar ${theme === "dark" ? "dark" : "light"}`}>
+      <div className={`Navbar ${theme === "dark" ? "dark" : ""}`}>
         <div className="tokyo">
           <h1>MERN</h1>
         </div>
@@ -81,7 +81,7 @@ const Navbar = () => {
           <h2>© 2023 YASH</h2>
         </div>
         {width < 1200 && (
-          <div className={`switch2 ${theme === "dark" ? "dark" : "light"}`}>
+          <div className={`switch2 ${theme === "dark" ? "dark" : ""}`}>
             <input type="checkbox" onClick={handleMenu} name="menu" />
             <div>
               <span

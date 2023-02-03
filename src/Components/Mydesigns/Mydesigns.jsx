@@ -12,9 +12,9 @@ const Mydesigns = () => {
   return (
     <>
       <Navbar />
-      <div className={`projects ${theme === "dark" ? "grey" : ""}`}>
+      <div className={`mydesigns ${theme === "dark" ? "grey" : ""}`}>
         <h1>My Designs</h1>
-        <div className="project">
+        <div className="mydesign">
           <h2>1. Aerial Photography</h2>
           <div className="img-cnt">
             <img src={Aerial} alt="" />
@@ -26,7 +26,7 @@ const Mydesigns = () => {
             to capture images of the Earth's surface from a high altitude.
           </p>
         </div>
-        <div className="project">
+        <div className="mydesign">
           <h2>2. LV (Louis Vuitton) </h2>
           <div className="img-cnt">
             <img src={LV} alt="" />
@@ -38,7 +38,7 @@ const Mydesigns = () => {
             shoes, watches, jewelry, accessories, sunglasses and books.
           </p>
         </div>
-        <div className="project">
+        <div className="mydesign">
           <h2>3. Ocean</h2>
           <div className="img-cnt">
             <img src={Ocean} alt="" />
@@ -50,7 +50,7 @@ const Mydesigns = () => {
             accessories, sunglasses and books.
           </p>
         </div>
-        <div className="project">
+        <div className="mydesign">
           <h2>4. Snowbear</h2>
           <div className="img-cnt">
             <img src={Snowbear} alt="" />
