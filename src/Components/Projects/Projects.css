@@ -12,6 +12,7 @@
   border-radius: 30px;
   margin: 2.5%;
   transition: all 0.2s;
+  cursor: pointer;
 }
 .darkcard {
   background: rgb(24, 24, 24);
@@ -20,9 +21,8 @@
 .darkcard:hover {
   box-shadow: 5px 5px 20px rgb(0, 0, 0), -5px -5px 10px rgb(110, 110, 110);
 }
-.lightcard {
-  background: #e0e0e0;
-  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+.lightcard:hover {
+  box-shadow: 5px 5px 20px #bebebe, -5px -5px 10px #ffffff;
 }
 .cards h2 {
   font-size: 1.5rem;

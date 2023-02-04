@@ -1,7 +1,7 @@
 import { createReducer } from "@reduxjs/toolkit";
 
 const initialState = {
-  theme: "dark",
+  theme: "light",
 };
 
 export const themeReducer = createReducer(initialState, {
