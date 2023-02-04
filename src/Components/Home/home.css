@@ -188,6 +188,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 0;
   }
   .homeLeft img {
     height: 100%;
@@ -284,5 +285,24 @@
     100% {
       margin-top: 0;
     }
+  }
+}
+@media screen and (max-width: 360px) {
+  .homeLeft {
+    margin-right: 0;
+    min-width: 90%;
+    min-height: 90vmin;
+  }
+  .homeRightName h1 {
+    font-size: 6.5vmin;
+  }
+  .container {
+    font-size: 5vmin;
+  }
+  .animation {
+    height: 8vmin;
+  }
+  .animation div {
+    height: 8vmin;
   }
 }
