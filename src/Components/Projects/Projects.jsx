@@ -18,14 +18,15 @@ const Projects = ({ repos }) => {
               key={i}
               className={`card ${theme === "dark" ? "darkcard" : "lightcard"}`}
             >
-              <a href={repo.homepage} target="_blank">
-                <h2>{repo.name}</h2>
-              </a>
+              <h2>{repo.name}</h2>
               <p>{repo.description}</p>
               {/* project link */}
 
-              <a href={repo.html_url} target="_blank" rel="noreferrer">
+              <a href={repo.homepage} target="_blank" rel="noreferrer">
                 <button>View Project</button>
+              </a>
+              <a href={repo.html_url} target="_blank" rel="noreferrer">
+                <button>View Code</button>
               </a>
             </div>
           ))}
