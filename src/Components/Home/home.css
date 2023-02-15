@@ -83,21 +83,21 @@
   overflow: hidden;
   margin-left: 1.8vmax;
 }
-.animation > div > div {
-  /* padding: 0.25rem 0.75rem; */
+.animation div {
   height: 3vmax;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 .animation div:first-child {
   animation: text-animation 8s infinite;
 }
-.first div {
+.first {
   color: #20a7d8;
 }
-.second div {
+.second {
   color: #cd921e;
 }
-.third div {
+.third {
   color: #c10528;
 }
 @keyframes text-animation {
@@ -108,22 +108,22 @@
     margin-top: 0;
   }
   20% {
-    margin-top: -2.8vmax;
+    margin-top: -3vmax;
   }
   30% {
-    margin-top: -2.8vmax;
+    margin-top: -3vmax;
   }
   40% {
-    margin-top: -5.6vmax;
+    margin-top: -6vmax;
   }
   60% {
-    margin-top: -5.6vmax;
+    margin-top: -6vmax;
   }
   70% {
-    margin-top: -2.8vmax;
+    margin-top: -3vmax;
   }
   80% {
-    margin-top: -2.8vmax;
+    margin-top: -3vmax;
   }
   90% {
     margin-top: 0;
@@ -252,7 +252,7 @@
     height: 5vmax;
   }
   .animation div {
-    height: 5vmax;
+    height: 100%;
   }
   @keyframes text-animation {
     0% {
@@ -304,5 +304,37 @@
   }
   .animation div {
     height: 8vmin;
+  }
+  @keyframes text-animation {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -8vmin;
+    }
+    30% {
+      margin-top: -8vmin;
+    }
+    40% {
+      margin-top: -15vmin;
+    }
+    60% {
+      margin-top: -15vmin;
+    }
+    70% {
+      margin-top: -8vmin;
+    }
+    80% {
+      margin-top: -8vmin;
+    }
+    90% {
+      margin-top: 0;
+    }
+    100% {
+      margin-top: 0;
+    }
   }
 }

@@ -31,15 +31,9 @@ const Home = () => {
           <div className="homeRightDetails">
             <main className="container">
               <section className="animation">
-                <div className="first">
-                  <div>Android Developer</div>
-                </div>
-                <div className="second">
-                  <div>Web Developer</div>
-                </div>
-                <div className="third">
-                  <div>Web Designer</div>
-                </div>
+                <div className="first">Android Developer</div>
+                <div className="second">Web Developer</div>
+                <div className="third">Web Designer</div>
               </section>
             </main>
           </div>
