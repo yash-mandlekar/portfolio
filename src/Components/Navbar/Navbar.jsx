@@ -29,7 +29,7 @@ const Navbar = () => {
           <h1>MERN</h1>
         </div>
         <div className="details">
-          <ul>
+          <ul>  
             <li
               to="/"
               className={`${theme === "dark" ? `txt-white` : `txt-black`}
@@ -56,14 +56,6 @@ const Navbar = () => {
             >
               <Link to="/projects">
                 <i className="ri-settings-2-line"></i>Projects
-              </Link>
-            </li>
-            <li
-              className={`${theme === "dark" ? ` txt-white` : `txt-black`}
-              ${pathname === "/contact" ? "active" : "darkactive"}`}
-            >
-              <Link to="/contact">
-                <i className="ri-phone-fill"></i>Contact
               </Link>
             </li>
             <li
