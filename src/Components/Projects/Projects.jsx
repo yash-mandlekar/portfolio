@@ -11,7 +11,7 @@ const Projects = ({ repos }) => {
       <div className={`about projects ${theme === "dark" ? "grey" : ""}`}>
         <h1>Projects</h1>
         <div className="cards">
-          {repos.map((repo, i) => (
+          {repos.sort().map((repo, i) => (
             <div
               key={i}
               className={`card ${theme === "dark" ? "darkcard" : "lightcard"}`}

@@ -13,7 +13,8 @@ const Mydesigns = () => {
   const handleOverlay = (e) => {
     if (
       e.target.classList.value === "overlay" ||
-      e.target.classList.value === "close"
+      e.target.classList.value === "close" ||
+      e.target.classList.value === "close-img"
     ) {
       setImage(null);
     }
@@ -32,7 +33,7 @@ const Mydesigns = () => {
       {image && (
         <div className="overlay">
           <div className="close">X</div>
-          <img src={image} alt="" />
+          <img className="close-img" src={image} alt="" />
         </div>
       )}
       <Navbar />
