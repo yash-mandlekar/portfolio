@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useRef, useState } from "react";
 import { useSelector } from "react-redux";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
@@ -25,8 +25,10 @@ const App = () => {
       setRepos((prev) => [...prev, data]);
     });
   };
+ 
   useEffect(() => {
     getRepos();
+   
   }, []);
   return (
     <>
@@ -40,6 +42,7 @@ const App = () => {
           </div>
         }
       >
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

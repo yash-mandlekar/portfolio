@@ -21,13 +21,14 @@ const Projects = ({ repos }) => {
               <h2>{repo.name}</h2>
               <p>{repo.description}</p>
               {/* project link */}
-
-              <a href={repo.homepage} target="_blank" rel="noreferrer">
-                <button>View Project</button>
-              </a>
-              <a href={repo.html_url} target="_blank" rel="noreferrer">
-                <button>View Code</button>
-              </a>
+              <div className="btn-cnt">
+                <a href={repo.homepage} target="_blank" rel="noreferrer">
+                  <button>View Project</button>
+                </a>
+                <a href={repo.html_url} target="_blank" rel="noreferrer">
+                  <button>View Code</button>
+                </a>
+              </div>
             </div>
           ))}
         </div>

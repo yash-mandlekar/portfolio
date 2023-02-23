@@ -3,7 +3,6 @@ import "./nav.css";
 import "animate.css";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Darkmode from "../../miniComp/Darkmode";
 
 const Navbar = () => {
   const { pathname } = useLocation();
