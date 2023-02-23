@@ -3,16 +3,13 @@ import { useSelector } from "react-redux";
 import Darkmode from "../../miniComp/Darkmode";
 import Navbar from "../Navbar/Navbar";
 import "./Projects.css";
-// for all the projects, we will be using the github api
-// https://api.github.com/users/yash-mandlekar/repos?sort=updated&direction=desc
 const Projects = ({ repos }) => {
   const { theme } = useSelector((state) => state.theme);
-  console.log(repos);
   return (
     <>
       <Navbar />
       <div className={`about projects ${theme === "dark" ? "grey" : ""}`}>
-        <h3>Projects</h3>
+        <h1>Projects</h1>
         <div className="cards">
           {repos.map((repo, i) => (
             <div
