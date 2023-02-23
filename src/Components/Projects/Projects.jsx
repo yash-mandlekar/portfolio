@@ -12,6 +12,7 @@ const Projects = ({ repos }) => {
     <>
       <Navbar />
       <div className={`about projects ${theme === "dark" ? "grey" : ""}`}>
+        <h3>Projects</h3>
         <div className="cards">
           {repos.map((repo, i) => (
             <div
