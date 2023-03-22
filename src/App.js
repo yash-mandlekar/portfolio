@@ -15,6 +15,7 @@ const App = () => {
     "Spotify-clone",
     "Trending-Movies",
     "Animal-Clinic",
+    "medium_clone"
   ];
   const getRepos = async () => {
     repoNames.forEach(async (repo) => {
