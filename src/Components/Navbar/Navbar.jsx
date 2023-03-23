@@ -122,14 +122,6 @@ const Navbar = () => {
             </Link>
           </li>
           <li
-            className={`${theme === "dark" ? ` txt-white` : `txt-black`}
-              ${pathname === "/contact" ? "active" : "darkactive"}`}
-          >
-            <Link to="/contact">
-              <i className="ri-phone-fill"></i>Contact
-            </Link>
-          </li>
-          <li
             className={`${theme === "dark" ? ` txt-white` : `txt-black`} ${
               pathname === "/mydesigns" ? "active" : "darkactive"
             }`}

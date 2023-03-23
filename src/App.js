@@ -29,7 +29,6 @@ const App = () => {
  
   useEffect(() => {
     getRepos();
-   
   }, []);
   return (
     <>
