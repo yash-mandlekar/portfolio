@@ -73,7 +73,7 @@ const Navbar = () => {
           <div data-tooltip="Size: 43kb" className="button">
             <div className="button-wrapper">
               <div className="text">
-              {width < 1200 ? "Resume":"Download Resume"}</div>
+              {width < 1200 ? "Resume ⬇":"Download Resume"}</div>
               <span className="icon">
                 <svg
                   viewBox="0 0 24 24"
