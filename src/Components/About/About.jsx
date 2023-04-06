@@ -4,7 +4,6 @@ import Navbar from "../Navbar/Navbar";
 import "./About.css";
 import myImg from "../../img/photu.jpg";
 import Darkmode from "../../miniComp/Darkmode";
-import resume from "./resume.pdf";
 const About = () => {
   const { theme } = useSelector((state) => state.theme);
   return (
@@ -70,33 +69,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <a href={resume} download>
-          <div data-tooltip="Size: 43kb" className="button">
-            <div className="button-wrapper">
-              <div className="text">Download Resume</div>
-              <span className="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  height="2em"
-                  width="2em"
-                  role="img"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"
-                    strokeWidth="2"
-                    strokeLinejoin="round"
-                    strokeLinecap="round"
-                    stroke="currentColor"
-                    fill="none"
-                  ></path>
-                </svg>
-              </span>
-            </div>
-          </div>
-        </a>
+       
       </div>
       <Darkmode />
     </>

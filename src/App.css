@@ -30,11 +30,13 @@ body::-webkit-scrollbar-thumb {
   display: flex;
 }
 .dark {
-  background-color: #000000 !important;
+  /* background-color: #331bb1 !important; */
+  background: linear-gradient(#201b2e, #000000);
   color: white !important;
 }
 .grey {
-  background-color: rgb(24, 24, 24) !important;
+  background: linear-gradient(#352c4b, #000000);
+  /* background-color: #362d4c !important; */
   color: rgb(255, 255, 255) !important;
 }
 .light {
