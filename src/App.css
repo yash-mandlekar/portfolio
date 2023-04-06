@@ -264,6 +264,13 @@ body::-webkit-scrollbar-thumb {
   .about {
     padding: 0% 7%;
   }
+  .button {
+    --width: 100px;
+    --height: 35px;
+    --tooltip-height: 30px;
+    --tooltip-width: 80px;
+    --gap-between-tooltip-to-button: 15px;
+  }
 }
 .overlay {
   position: absolute;
