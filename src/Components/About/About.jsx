@@ -2,7 +2,12 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Navbar from "../Navbar/Navbar";
 import "./About.css";
-import { AiFillHtml5 } from 'react-icons/ai';
+import { AiFillHtml5 } from "react-icons/ai";
+import { ImCss3 } from "react-icons/im";
+import { SiBootstrap, SiJavascript, SiMongodb, SiNodedotjs, SiReact } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
+import { BsGithub } from "react-icons/bs";
+import { TbBrandNextjs } from "react-icons/tb";
 import myImg from "../../img/photu.jpg";
 import Darkmode from "../../miniComp/Darkmode";
 const About = () => {
@@ -40,35 +45,53 @@ const About = () => {
           </p>
           <div className="divider"></div>
         </div>
-        
+
         <h1 className="skills">Skills </h1>
         <div className="about4">
           <div className="leftcnt">
             <div className="left">
-              <AiFillHtml5 size={25} />
-              <span className="head">HTML </span>
+              <AiFillHtml5 color="red" size={40} />
+              <span className="skill">HTML </span>
             </div>
             <div className="left">
-              <span className="head">Email: </span>
-              <span>ymandlekar9826@gmail.com</span>
+              <ImCss3 color="blue" size={35} />
+              <span className="skill">CSS </span>
             </div>
             <div className="left">
-              <span className="head">Phone: </span>
-              <span>+91-9826818996</span>
+              <SiJavascript className="js" color="#ebd41b" size={35} />
+              <span className="skill">JAVASCRIPT </span>
+            </div>
+            <div className="left">
+              <TbBrandNextjs className="nextjs" size={35} color="white" />
+              <span className="skill">NEXT JS </span>
             </div>
           </div>
           <div className="rightcnt">
             <div className="left">
-              <span className="head">Degree: </span>
-              <span>Bachelor</span>
+              <SiMongodb color="green" size={35} />
+              <span className="skill">MONGO DB </span>
             </div>
             <div className="left">
-              <span className="head">Interest: </span>
-              <span>Playing Football</span>
+              <SiReact color="#5cceed" size={35} />
+              <span className="skill">REACT JS</span>
             </div>
             <div className="left">
-              <span className="head">Freelance: </span>
-              <span>Available</span>
+              <BsGithub size={35} />
+              <span className="skill">GITHUB </span>
+            </div>
+          </div>
+          <div className="rightcnt">
+            <div className="left">
+              <SiNodedotjs color="green" size={35} />
+              <span className="skill">NODE JS </span>
+            </div>
+            <div className="left">
+              <GrMysql color="#045a84" size={35} />
+              <span className="skill">SQL </span>
+            </div>
+            <div className="left">
+              <SiBootstrap color="blue" size={35} />
+              <span className="skill">BOOTSTRAP </span>
             </div>
           </div>
         </div>
@@ -103,7 +126,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
       </div>
       <Darkmode />
     </>

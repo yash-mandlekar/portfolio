@@ -132,6 +132,19 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
 }
+.left svg{
+  margin: 0 5vh;
+}
+.nextjs{
+  background-color: black;
+  border-radius: 50%;
+}
+.js{
+  background-color: black;
+}
+.skill{
+  font-weight: 600;
+}
 .left .head {
   width: 20vh;
   font-weight: 600;
