@@ -40,7 +40,8 @@ body::-webkit-scrollbar-thumb {
   color: rgb(255, 255, 255) !important;
 }
 .light {
-  background-color: #f0f0f0 !important;
+  /* background-color: #f0f0f0 !important; */
+  background: linear-gradient(#ffffff,#e1dbec);
   color: black !important;
 }
 .darkactive {

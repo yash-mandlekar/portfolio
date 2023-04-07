@@ -1,5 +1,5 @@
 .projects {
-  padding: 0% 0% 20% 3%;
+  padding: 0% 0% 20% 0%;
 }
 .projects h1 {
   font-size: 2.8vmax;
@@ -14,8 +14,8 @@
 .card {
   /* height: 254px; */
   min-width: 310px;
-  border-radius: 30px;
-  margin: 1%;
+  border-radius: 15px;
+  margin: 1.2%;
   transition: all 0.2s;
   cursor: pointer;
   padding: 20px;
@@ -80,12 +80,7 @@
     width: 100%;
     padding-top: 10vh;
   }
-}
-@media screen and (max-width: 485px) {
-  .projects {
-    padding: 0% 5% 20% 5%;
-  }
-  .darkcard {
-    box-shadow: 5px 5px 20px rgb(0, 0, 0), -5px -5px 10px rgb(110, 110, 110);
+  .cards{
+    justify-content: center;
   }
 }
