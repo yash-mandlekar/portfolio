@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Navbar from "../Navbar/Navbar";
 import "./About.css";
+import { AiFillHtml5 } from 'react-icons/ai';
 import myImg from "../../img/photu.jpg";
 import Darkmode from "../../miniComp/Darkmode";
 const About = () => {
@@ -39,6 +40,39 @@ const About = () => {
           </p>
           <div className="divider"></div>
         </div>
+        
+        <h1 className="skills">Skills </h1>
+        <div className="about4">
+          <div className="leftcnt">
+            <div className="left">
+              <AiFillHtml5 size={25} />
+              <span className="head">HTML </span>
+            </div>
+            <div className="left">
+              <span className="head">Email: </span>
+              <span>ymandlekar9826@gmail.com</span>
+            </div>
+            <div className="left">
+              <span className="head">Phone: </span>
+              <span>+91-9826818996</span>
+            </div>
+          </div>
+          <div className="rightcnt">
+            <div className="left">
+              <span className="head">Degree: </span>
+              <span>Bachelor</span>
+            </div>
+            <div className="left">
+              <span className="head">Interest: </span>
+              <span>Playing Football</span>
+            </div>
+            <div className="left">
+              <span className="head">Freelance: </span>
+              <span>Available</span>
+            </div>
+          </div>
+        </div>
+        <div className="divider"></div>
         <div className="about4">
           <div className="leftcnt">
             <div className="left">
@@ -69,7 +103,7 @@ const About = () => {
             </div>
           </div>
         </div>
-       
+
       </div>
       <Darkmode />
     </>

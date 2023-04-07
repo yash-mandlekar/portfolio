@@ -96,7 +96,7 @@ body::-webkit-scrollbar-thumb {
 }
 .about3 {
   width: 100%;
-  padding: 5% 0%;
+  padding: 5% 0% 0 0;
 }
 .about3 h1 {
   font-size: 2vmax;
@@ -130,6 +130,7 @@ body::-webkit-scrollbar-thumb {
 .left {
   padding: 7px 0%;
   display: flex;
+  align-items: center;
 }
 .left .head {
   width: 20vh;
