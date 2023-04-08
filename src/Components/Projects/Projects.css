@@ -24,11 +24,9 @@
   align-items: normal;
   justify-content: space-between;
 }
-.darkcard {
-  background: rgb(24, 24, 24);
-}
+
 .darkcard:hover {
-  box-shadow: 5px 5px 20px rgb(0, 0, 0), -5px -5px 10px rgb(110, 110, 110);
+  box-shadow: 5px 5px 20px rgb(0, 0, 0), 0px 0px 15px rgb(33, 33, 33);
 }
 .lightcard:hover {
   box-shadow: 5px 5px 20px #bebebe, -5px -5px 10px #ffffff;
@@ -58,7 +56,7 @@
 }
 .cards a button {
   background-color: inherit;
-  border: 1px solid #00ff75;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   color: inherit;
   padding: 5px 20px;
