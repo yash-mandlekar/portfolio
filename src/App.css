@@ -243,19 +243,19 @@ body::-webkit-scrollbar-thumb {
   top: 0;
 }
 
-.button:hover:before,
+/* .button:hover:before,
 .button:hover:after {
   opacity: 1;
   visibility: visible;
-}
+} */
 
-.button:hover:after {
+/* .button:hover:after {
   bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
-}
-
+} */
+/* 
 .button:hover:before {
   bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
-}
+} */
 
 @media screen and (max-width: 1200px) {
   .about {
