@@ -4,7 +4,13 @@ import Navbar from "../Navbar/Navbar";
 import "./About.css";
 import { AiFillHtml5 } from "react-icons/ai";
 import { ImCss3 } from "react-icons/im";
-import { SiBootstrap, SiJavascript, SiMongodb, SiNodedotjs, SiReact } from "react-icons/si";
+import {
+  SiBootstrap,
+  SiJavascript,
+  SiMongodb,
+  SiNodedotjs,
+  SiReact,
+} from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";
 import { TbBrandNextjs } from "react-icons/tb";

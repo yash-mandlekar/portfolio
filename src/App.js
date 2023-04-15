@@ -18,6 +18,60 @@ const App = () => {
     "medium_clone",
     "Instagram-Clone",
   ];
+  var arr = [
+    {
+      name: "medium_clone",
+      description: "This is a replica of medium website",
+      homepage: "https://medium-clone-phi-ashy.vercel.app/",
+      html_url: "https://github.com/yash-mandlekar/medium_clone",
+      img: "/medium.png",
+      tech: ["React", "Node.js", "MongoDB"],
+    },
+    {
+      name: "Instagram-Clone",
+      description: "In this Web App we can signup and login",
+      homepage: "https://instagram-clone-dbuu06qx7-yash-mandleakar.vercel.app/",
+      html_url: "https://github.com/yash-mandlekar/Instagram-Clone",
+      img: "/instagram.png",
+      tech: ["React", "Node.js", "MongoDB"],
+    },
+    {
+      name: "WeatherForecast",
+      description:
+        "Weather Forecast web application is used to search cities and there weather report",
+      homepage: "https://yes-weather.vercel.app/",
+      html_url: "https://github.com/yash-mandlekar/WeatherForecast",
+      img: "/weather.png",
+      tech: ["React"],
+    },
+    {
+      name: "Spotify-clone",
+      description:
+        "Spotify is a web application where you can listen to songs preview and search artists",
+      homepage: "https://spotiify.vercel.app/",
+      html_url: "https://github.com/yash-mandlekar/Spotify-clone",
+      img: "/animal.png",
+      tech: ["React"],
+    },
+    {
+      name: "Trending-Movies",
+      description:
+        "Trending Movies is a community built movie and TV database. Every piece of data has been added by TMDB api. This app is made with the help of react.js.",
+      homepage: "https://trending-movies-lake.vercel.app/",
+      html_url: "https://github.com/yash-mandlekar/Trending-Movies",
+      img: "/netflix.png",
+      tech: ["React"],
+    },
+    {
+      name: "Animal-Clinic",
+      description:
+        "Animal Clinic is a website where you can add your pet health issues. You have to register and login to your account for adding any pet",
+      homepage: "https://yes-weather.vercel.app/",
+      html_url: "https://github.com/yash-mandlekar/WeatherForecast",
+      img: "/animal.png",
+      tech: ["React"],
+    },
+  ];
   const getRepos = async () => {
     repoNames.forEach(async (repo) => {
       const res = await fetch(
@@ -28,10 +82,10 @@ const App = () => {
     });
   };
 
-  useEffect(() => { 
+  useEffect(() => {
     getRepos();
     // fetching ip address of user
-    console.log("Fetching ip address");
+    // console.log("Fetching ip address");
     var ip = null;
     fetch("https://api.ipify.org?format=json")
       .then((res) => res.json())
@@ -40,12 +94,11 @@ const App = () => {
         fetch(`https://ipapi.co/${data.ip}/json/`)
           .then((res) => res.json())
           .then((data) => {
-            console.log(data);
+            // console.log(data);
           });
       });
 
     // fetching hostname of user
-    
   }, []);
   return (
     <>
@@ -69,7 +122,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects repos={repos} />} />
+          <Route path="/projects" element={<Projects repos={arr} />} />
           <Route path="/mydesigns" element={<Mydesigns />} />
         </Routes>
       </Suspense>
