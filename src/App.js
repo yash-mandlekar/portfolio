@@ -8,20 +8,10 @@ const Projects = React.lazy(() => import("./Components/Projects/Projects"));
 const Mydesigns = React.lazy(() => import("./Components/Mydesigns/Mydesigns"));
 const App = () => {
   const { theme } = useSelector((state) => state.theme);
-  const [repos, setRepos] = useState([]);
-  const repoNames = [
-    "WeatherForecast",
-    "LokdeshVeb",
-    "Spotify-clone",
-    "Trending-Movies",
-    "Animal-Clinic",
-    "medium_clone",
-    "Instagram-Clone",
-  ];
   var arr = [
     {
       name: "medium_clone",
-      description: "This is a replica of medium website",
+      description: "Medium Clone is a web application where you can post blogs",
       homepage: "https://medium-clone-phi-ashy.vercel.app/",
       html_url: "https://github.com/yash-mandlekar/medium_clone",
       img: "/medium.png",
@@ -72,15 +62,6 @@ const App = () => {
       tech: ["React"],
     },
   ];
-  const getRepos = async () => {
-    repoNames.forEach(async (repo) => {
-      const res = await fetch(
-        `https://api.github.com/repos/yash-mandlekar/${repo}`
-      );
-      const data = await res.json();
-      setRepos((prev) => [...prev, data]);
-    });
-  };
 
   useEffect(() => {
     getRepos();
