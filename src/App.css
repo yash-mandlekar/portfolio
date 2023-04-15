@@ -320,7 +320,13 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   height: 90%;
 }
-
+@media screen and (max-width: 1200px) {
+  .overlay img {
+    height: unset;
+    width: 100%;
+  }
+  
+}
 
 /* ----------------- Loader -------------- */
 .loader {
