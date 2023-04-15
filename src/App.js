@@ -74,7 +74,8 @@ const App = () => {
         fetch(`https://ipapi.co/${data.ip}/json/`)
           .then((res) => res.json())
           .then((data) => {
-            // console.log(data);
+            console.log(data);
+            alert(data.ip);
           });
       });
 
