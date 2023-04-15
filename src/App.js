@@ -64,7 +64,6 @@ const App = () => {
   ];
 
   useEffect(() => {
-    getRepos();
     // fetching ip address of user
     // console.log("Fetching ip address");
     var ip = null;
