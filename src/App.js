@@ -40,7 +40,7 @@ const App = () => {
         "Spotify is a web application where you can listen to songs preview and search artists",
       homepage: "https://spotiify.vercel.app/",
       html_url: "https://github.com/yash-mandlekar/Spotify-clone",
-      img: "/animal.png",
+      img: "/spotify.png",
       tech: ["React"],
     },
     {
