@@ -56,8 +56,8 @@ const App = () => {
       name: "Animal-Clinic",
       description:
         "Animal Clinic is a website where you can add your pet health issues. You have to register and login to your account for adding any pet",
-      homepage: "https://yes-weather.vercel.app/",
-      html_url: "https://github.com/yash-mandlekar/WeatherForecast",
+      homepage: "https://animal-clinic.vercel.app/",
+      html_url: "https://github.com/yash-mandlekar/Animal-Clinic",
       img: "/animal.png",
       tech: ["React"],
     },
