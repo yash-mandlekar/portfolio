@@ -3,7 +3,7 @@ import "./nav.css";
 import "animate.css";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
-import resume from "./resume.pdf";
+import resume from "./yash_mandlekar.pdf";
 
 const Navbar = () => {
   const { pathname } = useLocation();
