@@ -12,7 +12,6 @@ import {
 } from "react-icons/si";
 
 const Projects = ({ repos }) => {
-  console.log(repos);
   const { theme } = useSelector((state) => state.theme);
   return (
     <>
@@ -33,7 +32,7 @@ const Projects = ({ repos }) => {
               <div className="techcnt">
                 <h3>Tech Stack:</h3>
                 {repo?.tech?.map((tech, i) => (
-                  <>
+                  <div key={i}>
                     {tech === "React" && (
                       <SiReact key={i} color="#5cceed" size={30} />
                     )}
@@ -49,7 +48,7 @@ const Projects = ({ repos }) => {
                     {tech === "Javascript" && (
                       <SiJavascript key={i} color="yellow" size={30} />
                     )}
-                  </>
+                  </div>
                 ))}
               </div>
               {/* project link */}

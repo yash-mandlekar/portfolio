@@ -14,7 +14,7 @@ const App = () => {
       description: "Medium Clone is a web application where you can post blogs",
       homepage: "https://medium-clone-phi-ashy.vercel.app/",
       html_url: "https://github.com/yash-mandlekar/medium_clone",
-      img: "/medium.png",
+      img: "/medium.webp",
       tech: ["React", "Node.js", "MongoDB"],
     },
     {
@@ -22,7 +22,7 @@ const App = () => {
       description: "In this Web App we can signup and login",
       homepage: "https://instagram-clone-dbuu06qx7-yash-mandleakar.vercel.app/",
       html_url: "https://github.com/yash-mandlekar/Instagram-Clone",
-      img: "/instagram.png",
+      img: "/instagram.webp",
       tech: ["React", "Node.js", "MongoDB"],
     },
     {
@@ -31,7 +31,7 @@ const App = () => {
         "Weather Forecast web application is used to search cities and there weather report",
       homepage: "https://yes-weather.vercel.app/",
       html_url: "https://github.com/yash-mandlekar/WeatherForecast",
-      img: "/weather.png",
+      img: "/weather.webp",
       tech: ["React"],
     },
     {
@@ -40,7 +40,7 @@ const App = () => {
         "Spotify is a web application where you can listen to songs preview and search artists",
       homepage: "https://spotiify.vercel.app/",
       html_url: "https://github.com/yash-mandlekar/Spotify-clone",
-      img: "/spotify.png",
+      img: "/spotify.webp",
       tech: ["React"],
     },
     {
@@ -49,7 +49,7 @@ const App = () => {
         "Trending Movies is a community built movie and TV database. Every piece of data has been added by TMDB api. This app is made with the help of react.js.",
       homepage: "https://trending-movies-lake.vercel.app/",
       html_url: "https://github.com/yash-mandlekar/Trending-Movies",
-      img: "/netflix.png",
+      img: "/netflix.webp",
       tech: ["React"],
     },
     {
@@ -58,7 +58,7 @@ const App = () => {
         "Animal Clinic is a website where you can add your pet health issues. You have to register and login to your account for adding any pet",
       homepage: "https://animal-clinic.vercel.app/",
       html_url: "https://github.com/yash-mandlekar/Animal-Clinic",
-      img: "/animal.png",
+      img: "/animal.webp",
       tech: ["React"],
     },
   ];

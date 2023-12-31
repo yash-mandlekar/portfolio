@@ -3,10 +3,10 @@ import { useSelector } from "react-redux";
 import Darkmode from "../../miniComp/Darkmode";
 import Navbar from "../Navbar/Navbar";
 import "./mydesigns.css";
-import Aerial from "./Aerial.png";
-import LV from "./LV.png";
-import Ocean from "./Ocean.png";
-import Snowbear from "./Snowbear.png";
+import Aerial from "./Aerial.webp";
+import LV from "./LV.webp";
+import Ocean from "./Ocean.webp";
+import Snowbear from "./Snowbear.webp";
 import { AiFillHtml5 } from "react-icons/ai";
 import { ImCss3 } from "react-icons/im";
 const Mydesigns = () => {
