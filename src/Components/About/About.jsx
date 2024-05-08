@@ -106,7 +106,7 @@ const About = () => {
           <div className="leftcnt">
             <div className="left">
               <span className="head">Age: </span>
-              <span>21</span>
+              <span>22</span>
             </div>
             <div className="left">
               <span className="head">Email: </span>
