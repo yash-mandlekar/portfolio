@@ -120,7 +120,7 @@ const About = () => {
           <div className="rightcnt">
             <div className="left">
               <span className="head">Degree: </span>
-              <span>Bachelor</span>
+              <span>Masters</span>
             </div>
             <div className="left">
               <span className="head">Interest: </span>
