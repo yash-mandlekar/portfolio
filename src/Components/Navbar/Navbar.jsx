@@ -3,7 +3,6 @@ import "./nav.css";
 import "animate.css";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
-import resume from "./yash_mandlekar.pdf";
 
 const Navbar = () => {
   const { pathname } = useLocation();
@@ -69,7 +68,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a href={resume} download>
+        <a href="/yash_resume.pdf" download>
           <div data-tooltip="Size: 43kb" className="button">
             <div className="button-wrapper">
               <div className="text">
