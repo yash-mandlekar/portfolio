@@ -9,6 +9,7 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiReact,
+  SiExpress,
 } from "react-icons/si";
 
 const Projects = ({ repos }) => {
@@ -33,14 +34,17 @@ const Projects = ({ repos }) => {
                 <h3>Tech Stack:</h3>
                 {repo?.tech?.map((tech, i) => (
                   <div key={i}>
+                    {tech === "MongoDB" && (
+                      <SiMongodb key={i} color="green" size={30} />
+                    )}
+                    {tech === "Express" && (
+                      <SiExpress key={i} color="green" size={30} />
+                    )}
                     {tech === "React" && (
                       <SiReact key={i} color="#5cceed" size={30} />
                     )}
                     {tech === "Node.js" && (
                       <SiNodedotjs key={i} color="green" size={30} />
-                    )}
-                    {tech === "MongoDB" && (
-                      <SiMongodb key={i} color="green" size={30} />
                     )}
                     {tech === "Bootstrap" && (
                       <SiBootstrap key={i} color="purple" size={30} />
@@ -56,9 +60,11 @@ const Projects = ({ repos }) => {
                 <a href={repo.homepage} target="_blank" rel="noreferrer">
                   <button>View Project</button>
                 </a>
-                <a href={repo.html_url} target="_blank" rel="noreferrer">
-                  <button>View Code</button>
-                </a>
+                {repo?.html_url && (
+                  <a href={repo.html_url} target="_blank" rel="noreferrer">
+                    <button>View Code</button>
+                  </a>
+                )}
               </div>
             </div>
           ))}

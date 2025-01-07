@@ -10,23 +10,45 @@ const App = () => {
   const { theme } = useSelector((state) => state.theme);
   var arr = [
     {
-      name: "medium_clone",
+      name: "Builds Your Mind",
+      description: "",
+      homepage: "https://buildsyourmind.in/",
+      img: "/buildsyourmind.webp",
+      tech: ["MongoDB", "Express", "React", "Node.js"],
+    },
+    {
+      name: "Roomieqindia",
+      description: "",
+      homepage: "https://roomieqindia.com/",
+      img: "/roomieqindia.webp",
+      tech: ["MongoDB", "Express", "React", "Node.js"],
+    },
+    {
+      name: "Sage Euphoria",
+      description: "",
+      homepage: "https://sageeuphoria.com/",
+      html_url: "https://github.com/abhishekhojha/sageeuphoria",
+      img: "/sageeuphoria.webp",
+      tech: ["React"],
+    },
+    {
+      name: "Medium Clone",
       description: "Medium Clone is a web application where you can post blogs",
       homepage: "https://medium-clone-phi-ashy.vercel.app/",
       html_url: "https://github.com/yash-mandlekar/medium_clone",
       img: "/medium.webp",
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["MongoDB", "Express", "React", "Node.js"],
     },
     {
-      name: "Instagram-Clone",
+      name: "Instagram Clone",
       description: "In this Web App we can signup and login",
       homepage: "https://instagram-clone-dbuu06qx7-yash-mandleakar.vercel.app/",
       html_url: "https://github.com/yash-mandlekar/Instagram-Clone",
       img: "/instagram.webp",
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["MongoDB", "Express", "React", "Node.js"],
     },
     {
-      name: "WeatherForecast",
+      name: "Weather Forecast",
       description:
         "Weather Forecast web application is used to search cities and there weather report",
       homepage: "https://yes-weather.vercel.app/",
@@ -35,7 +57,7 @@ const App = () => {
       tech: ["React"],
     },
     {
-      name: "Spotify-clone",
+      name: "Spotify clone",
       description:
         "Spotify is a web application where you can listen to songs preview and search artists",
       homepage: "https://spotiify.vercel.app/",
@@ -44,7 +66,7 @@ const App = () => {
       tech: ["React"],
     },
     {
-      name: "Trending-Movies",
+      name: "Trending Movies",
       description:
         "Trending Movies is a community built movie and TV database. Every piece of data has been added by TMDB api. This app is made with the help of react.js.",
       homepage: "https://trending-movies-lake.vercel.app/",
@@ -53,7 +75,7 @@ const App = () => {
       tech: ["React"],
     },
     {
-      name: "Animal-Clinic",
+      name: "Animal Clinic",
       description:
         "Animal Clinic is a website where you can add your pet health issues. You have to register and login to your account for adding any pet",
       homepage: "https://animal-clinic.vercel.app/",
