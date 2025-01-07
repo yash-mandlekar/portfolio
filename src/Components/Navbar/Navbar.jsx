@@ -101,17 +101,17 @@ const Navbar = () => {
           <h2>© 2023 YASH</h2>
         </div>
         {width < 1200 && (
-          <div className={`switch2 ${theme === "dark" ? "dark" : ""}`}>
+          <div className={`switch2 `}>
             <input type="checkbox" onClick={handleMenu} name="menu" />
             <div>
               <span
-                className={`line-1 ${theme === "dark" ? "" : "dark"}`}
+                className={`line-1 ${theme === "dark" ? "" : "bg-black"}`}
               ></span>
               <span
-                className={`line-2 ${theme === "dark" ? "" : "dark"}`}
+                className={`line-2 ${theme === "dark" ? "" : "bg-black"}`}
               ></span>
               <span
-                className={`line-3 ${theme === "dark" ? "" : "dark"}`}
+                className={`line-3 ${theme === "dark" ? "" : "bg-black"}`}
               ></span>
             </div>
           </div>

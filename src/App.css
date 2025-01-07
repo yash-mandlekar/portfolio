@@ -53,6 +53,9 @@ body::-webkit-scrollbar-thumb {
 .txt-black {
   color: rgb(0, 0, 0) !important;
 }
+.bg-black {
+  background-color: rgb(0, 0, 0) !important;
+}
 .about {
   overflow-x: hidden;
   /* display: flex; */

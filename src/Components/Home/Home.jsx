@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./home.css";
-import Photu from "../../img/photo.jpeg";
+import Photu from "../../img/photo.png";
 import Navbar from "../Navbar/Navbar";
 import { useSelector } from "react-redux";
 import Darkmode from "../../miniComp/Darkmode";

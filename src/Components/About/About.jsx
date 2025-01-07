@@ -14,7 +14,7 @@ import {
 import { GrMysql } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";
 import { TbBrandNextjs } from "react-icons/tb";
-import myImg from "../../img/photo.jpeg";
+import myImg from "../../img/photo.png";
 import Darkmode from "../../miniComp/Darkmode";
 const About = () => {
   const { theme } = useSelector((state) => state.theme);
