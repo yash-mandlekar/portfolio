@@ -11,21 +11,24 @@ const App = () => {
   var arr = [
     {
       name: "Builds Your Mind",
-      description: "",
+      description:
+        "Buildsyourmind is educational technology platform designed to provide online learning resources for students. It mainly focuses on affordable, high-quality education for students.",
       homepage: "https://buildsyourmind.in/",
       img: "/buildsyourmind.webp",
       tech: ["MongoDB", "Express", "React", "Node.js"],
     },
     {
       name: "Roomieqindia",
-      description: "",
+      description:
+        "Roomieqindia is a platform where regular people (like you and me) can buy and sell used items directly to each other without needing a middleman. It’s like an online garage sale where you can sell your old stuff or find cool second-hand deals.",
       homepage: "https://roomieqindia.com/",
       img: "/roomieqindia.webp",
       tech: ["MongoDB", "Express", "React", "Node.js"],
     },
     {
       name: "Sage Euphoria",
-      description: "",
+      description:
+        "Developed a university event website using React.js. Implemented dynamic animations using the Framer Motion library.",
       homepage: "https://sageeuphoria.com/",
       html_url: "https://github.com/abhishekhojha/sageeuphoria",
       img: "/sageeuphoria.webp",
