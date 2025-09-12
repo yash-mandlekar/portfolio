@@ -103,8 +103,6 @@ const App = () => {
             // alert(data.ip);
           });
       });
-
-    // fetching hostname of user
     // fetching hostname of user
   }, []);
   return (
