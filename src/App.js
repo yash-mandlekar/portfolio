@@ -105,6 +105,7 @@ const App = () => {
       });
 
     // fetching hostname of user
+    // fetching hostname of user
   }, []);
   return (
     <>
